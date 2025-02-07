@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+
+nav {
+    margin-left: 20vw;
+    max-width: 100vw;
+    display: flex;
+
+}
+
+.logo_cvs {
+    max-width: 20vw;
+    justify-self: flex-start;
+}
+
+.menu_lista {
+    display: flex;
+    max-width: 80vw;
+}
+
+.inicio, .chamados, .contato, .login {
+    padding: 1.5em 4em;
+}
+
+
+.main {
+    display: flex;
+    min-width: 10rem;
+}
+
+.conversas {
+    max-height: auto;
+    display: flex;
+    flex-basis: 0em;
+
+}
+
+.conversa_criada {
+    background-color: rgba(36, 89, 136, 0.377);
+    flex-grow: 1;
+    width: 25%;
+    min-height: 80.1vh;
+
+}
+
+.conteudo_conversa {
+    display: flex;
+    padding: 1rem;
+    width: 70vw;
+    width: 75%;
+    background-color: rgba(36, 89, 136, 0.336);
+}
+
+.bloco_conversa {
+    .bloco_conversa {
+        flex-grow: 1;
+        height: calc(100vh - 7.5em);
+    }
+    
+
+}
+
+.modal_file {
+    position: fixed;
+    top: 20%;
+    right: 25%;
+    background-color: rgba(255, 255, 255, 0.384);
+    width: 40rem;
+    height: 30rem;
+    border-radius: 20px;
+    padding: 2rem;
+    display: none;
+}
+
+.modal_file p {
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+.modal_file img {
+    width: 30px;
+    display: flex;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4rem;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(36, 89, 136, 0.336);
+}
+
+.entrada_texto {
+    resize: none;
+    padding: 1rem;
+    display: flex;
+    height: 3rem;
+    width: 95%;
+    border-radius: 10px;
+    border-color: transparent;
+
+}
+.btn_enviar, .btn_anexar {
+    width: 3em;
+    height: 3em;
+    border-radius: 100%;
+    background-color: transparent;
+    border-color: transparent;
+    
+}
+
+.btn_enviar img, .btn_anexar img{
+    width: 2em;
+}
+
+.send_file {
+    min-height: 30px;
+    z-index: -1;
+    
+}
+
+.input_anexar {
+    display: none;
+}
+
+.imagem_carregada {
+    width: 300px;
+}

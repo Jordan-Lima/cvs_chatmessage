@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/fonts.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHAT CVS</title>
+</head>
+<body>
+    <header>
+        <figure>
+            <img class="logo_cvs" src="https://villasimpatia.com.br/assets/img/cvs/villasimpatia-logo.png">
+        </figure>
+        <nav>
+            <ul class="menu_lista fira-sans-regular">
+                <li class="inicio">Início</li>
+                <li class="chamados">Sistema de Chamado</li>
+                <li class="contato">Contato</li>
+                <li class="login">Perfil</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="modal_file">
+        <img class="btn_fechar" src="src/cross.png" alt="" srcset="">
+        <p class="nome_arquivo fira-sans-semibold"></p>
+    </div>
+    <div class="conversas">
+        <div class="conversa_criada">
+        
+        </div>
+        <div class="conteudo_conversa">
+            <article class="bloco_conversa"></article>
+        </div>
+    </div>
+    <footer>
+        <button class="btn_anexar">
+            <img  src="src/paperclip.png" alt="">
+        </button>
+        <input type="file" class="input_anexar">
+        <textarea type="text" name="" class="entrada_texto fira-sans-regular" placeholder="Digite sua mensagem..." hidden></textarea>
+        <button class="btn_enviar" type="reset" >
+            <img  src="src/send.png" alt="">
+        </button>
+
+    </footer>
+    
+</body>
+<script src="main.js"></script>
+</html>
